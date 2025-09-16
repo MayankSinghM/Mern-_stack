@@ -1,0 +1,26 @@
+h1{
+    background-color: blue;
+    font-size:3rem;
+}
+h2{
+    text-align: center;
+}
+#f{
+    font-size:2em;
+    background-color: red;
+}
+.c{
+    font-size: 8vh;
+    color: #1b600e;
+    background-color: rgba(150, 63, 163,1);
+    
+
+}
+#f,.c{
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+#g{
+    background-color:hsla(240,240,250)
+}

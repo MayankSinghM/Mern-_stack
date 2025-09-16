@@ -1,0 +1,43 @@
+
+#container{
+    height:400px;
+    width:600px;
+    background-color: rgb(242, 246, 249);
+    position:relative;
+    left:100px;
+    top:100px;
+    
+    
+
+}
+
+#box{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(3, 3, 156);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+#strip1{
+    height: 300px;
+    width:50px;
+    background-color: yellow;
+    position: absolute;
+    left:150px;
+
+
+
+}
+
+#strip2{
+    height: 50px;
+    width:500px;
+    background-color: yellow;
+    position: absolute;
+    top: 120px;
+    
+
+}

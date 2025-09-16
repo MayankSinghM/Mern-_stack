@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Job Application: Senior Web Developer</h1>
+        <p>Thank you for your interest in joining our team. Please fill out the application below</p>
+        <hr>
+    </header>
+
+    <main>
+        <form>
+            <h2>Personal Information</h2>
+
+
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" name="user-name" id="name" placeholder="eg rahul singh chauhan" required>
+            <br><br>
+
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="Email" id="email">
+            <br><br>
+
+
+            <label for="phone">Phone:</label>
+            <br>
+            <input type="number" name="phone" id="phone">
+            <br><br>
+
+
+            <label for="Linkedin">Linkedin Profile URL:</label>
+            <br>
+            <input type="url" name="Linkedin" id="Linkedin" placeholder="https://linkedin.com/in/username">
+            <br><br>
+
+
+            <hr>
+
+
+            <h2>Professional Experience</h2>
+
+            <label for="file">Upload your Resume(PDF or DOCX):</label>
+            <br>
+            <input type="file" name="file" id="file">
+            <br><br>
+
+            <label for="cover-letter">Cover Letter:</label>
+            <br>
+            <textarea id="cover-letter" name="cover-letter" rows="10" cols="25" placeholder="Write your cover-letter here....."></textarea>
+            <br><br>
+
+            <label for="YOE">Year of Professional Experience:</label>
+            <br>
+            <input type="number" name="Years-of-Experience" id="YOE" min="0" max="50" size="2">
+            <br><br>
+
+            <label for="date">Earliest Possible Start Date:</label>
+            <br>
+            <input type="date" name="Date" id="date">
+            <br><br>
+
+
+            <hr>
+
+            <h2>Skills & Availability</h2>
+
+            <label>Primary Skillset(Choose One):</label>
+            <br>
+
+            <input type="radio" id="frontend" name="primary-skill" value="Frontend">
+            <label for="frontend">Frontend Development</label><br>
+
+            <input type="radio" id="backend" name="primary-skill" value="Backend">
+            <label for="backend">Backend Development</label><br>
+
+            <input type="radio" id="fullstack" name="primary-skill" value="Fullstack">
+            <label for="fullstack">Full-Stack Development</label>
+            <br><br>
+
+
+            <label>Additional Skills(Select all that apply):</label>
+            <br>
+
+            <input type="checkbox" name="additional-skill[]" id="react" value="react">
+            <label for="react">React</label>
+            <br>
+
+            <input type="checkbox" name="additional-skill[]" id="node-js" value="node-js">
+            <label for="node-js">Node-js</label>
+            <br>
+
+            <input type="checkbox" name="additional-skill[]" id="dm" value="DataManagement">
+            <label for="dm">Data Management</label>
+            <br>
+
+            <input type="checkbox" name="additional-skill[]" id="cd" value="Cloud/Devops">
+            <label for="cd">Cloud/Devops</label>
+            <br><br>
+
+            <label for="WorkType">Preferred Work Type:</label>
+            <br>
+            <select name="wortype" id="WorkType">
+                <option value="FullTime">Full Time</option>
+                <option value="PartTime">Part Time</option>
+            </select>
+            <br><br>
+
+            <hr>
+
+            <h2>Final Confirmation</h2>
+
+            <input type="checkbox" id="yes" value="yes" >
+            <label for="yes">I am legally authorized to work in this country.</label>
+            <br><br>
+
+            <label for="find">How did you hear about us?</label>
+            <br>
+            <input type ="text" name="FindUs" id="find" placeholder="eg. Linkedin, company">
+            <br><br>
+
+            <button type="submit" >Submit Application</button>
+            <button type="reset" >Clear Form</button>
+
+        
+                
+            <br><br>
+        </form>
+    </main>
+</body>
+</html>

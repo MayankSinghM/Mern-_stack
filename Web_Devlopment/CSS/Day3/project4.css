@@ -1,0 +1,29 @@
+#a{
+    background-color:rgb(120, 17, 17);
+    width:500px;
+    height:300px;
+    position: relative;
+    top:100px;
+    left:100px;
+}
+
+#b{
+    background-color: rgb(21, 21, 88);
+    position: absolute;
+    width: 500px;
+    height: 120px;
+    top:90px;
+
+}
+
+#c{
+    border-radius:50% ;
+    background-color: aliceblue;
+
+    width: 100px;
+    height:100px;
+    position:absolute;
+    top:10px;
+    left:200px;
+
+}

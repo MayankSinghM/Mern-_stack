@@ -1,0 +1,44 @@
+/* #f{
+    position:absolute;
+    top:190px;
+    left:300px;
+    width:120px;
+    height:120px;
+    background-color: rgb(119, 14, 14);
+    z-index:10;
+    border-radius: 50%;
+    border:10px;
+
+}
+
+#s{
+    
+    position: relative;
+    top:100px;
+    left:100px;
+    right:100px;
+    height:300px;
+    width: 500px;
+    background-color: rgb(224, 228, 231);
+    
+} */
+
+#container{
+    height:200px;
+    width:300px;
+    background-color: aliceblue;
+    position: relative;
+    left:200px;
+    top:200px;
+    
+
+}
+#circle{
+    height:100px;
+    width:100px;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    top:50px;
+    left:100px;
+}

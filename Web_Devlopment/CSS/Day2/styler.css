@@ -1,0 +1,56 @@
+.f{
+    color:red;
+    border-left: solid black 10px;
+    margin :10px;
+    padding:30px;
+}
+
+#s{
+    color:rgb(20,43,250);
+    background-color:rgb(133, 118, 118);
+    padding-left:10px;
+    border:10px solid black;
+    margin-top:20px;
+    padding:50px;
+}
+
+#f{
+    height: 30px;
+    width: 500px;
+    color:red;
+}
+
+span{
+    color:blue;
+    
+
+
+}
+
+.g{
+    background-color:red;
+    text-align:center;
+    height:100px;
+    width: 100px;
+    margin:9px;
+    margin-left:150px;
+    border:10px solid black;
+    padding-top:50px;
+    display:inline-block;
+    box-sizing: border-box;
+
+}
+.b1{
+    background-color: blue;
+    margin-left:100px;
+    display:inline-block;
+    padding:20px;
+
+
+}
+.b2{
+    background-color: red;
+    margin: 20px;
+    display:inline-block;
+    
+}

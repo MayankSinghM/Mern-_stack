@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    height:600px;
+    width: 600px;
+    display: grid;
+    background-color: rgb(168, 173, 171);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8,1fr) ;
+    
+    padding:0px;
+    
+}
+body{
+    background-color: rgb(232, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.first{
+    background-color: aliceblue;
+}
+.second{
+    background-color: black;
+}

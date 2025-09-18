@@ -1,0 +1,39 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+.container{
+
+  
+    background-color: rgb(142, 13, 13);
+     display:grid;
+    height:100vh;
+    width:100vh;
+     font-size:50px;
+    
+
+   
+}
+@media screen and (min-width:600px){
+    .container{
+        background-color: rgb(121, 49, 193);
+        height:100vh;
+        width:100%;
+        font-size:30px;
+} 
+}
+
+@media screen and (min-width:700px){
+    .container{
+        background-color: rgb(193, 167, 49);
+        height:100vh;
+        width:100%;
+        font-size:90px;
+} 
+}
+

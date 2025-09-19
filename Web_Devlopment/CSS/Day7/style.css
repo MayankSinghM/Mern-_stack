@@ -1,0 +1,53 @@
+*{
+    height:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: black;
+}
+
+.container{
+    padding:20px;
+    position: relative;
+}
+
+.box{
+    height: 100px;
+    width:150px;
+    background-color: rgb(21, 20, 19);
+    position:absolute;
+    animation-name : moving;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    
+    animation-delay:2s;
+    
+}
+
+@keyframes moving{
+    0%{
+        background-color: orange;
+        top:10px;
+        left:10px;
+    }
+    25%{
+        background-color: blue;
+        top:10px;
+        left:1000px;
+    }
+    50%{
+        background-color: rgb(255, 0, 149);
+        top:500px;
+        left:1000px;
+    }
+    75%{
+        background-color: rgb(0, 255, 94);
+        top:500px;
+        left:10px;
+    }
+    100%{
+        background-color: rgb(161, 161, 189);
+        top:10px;
+        left:10px;
+    }
+}

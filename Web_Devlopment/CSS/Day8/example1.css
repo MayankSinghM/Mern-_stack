@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: rgb(17, 3, 3);
+    height: 100vh;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    perspective: 800px;
+   
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+
+    background-color: aliceblue;
+    cursor: pointer;
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear; */
+    /* transition: all 3s ease-in 1s;
+    transform: translate(100px,200px);
+    transform: rotate(30deg) */
+    /* transform: skewY(-30deg); */
+    /* transition: all 3s; */
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+    
+    
+}
+
+@keyframes moving {
+    from{
+        transform:rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+    
+}
+/* .box:hover {
+    /* background-color: rgb(90, 76, 76);
+    width: 300px;
+    height: 300px; */
+    /* transform: scaley(2); */
+    /* transform: translateZ(200px); */
+    /* transform: rotateX(90deg);
+
+} */ 

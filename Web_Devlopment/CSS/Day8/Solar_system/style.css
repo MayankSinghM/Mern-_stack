@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.solar-system{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    position: relative;
+    align-items: center;
+   
+    
+}
+.sun{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    z-index:1;
+}
+/* Orbit = invisible circle container */
+.earth {
+  width: 300px;   /* diameter of orbit */
+  height: 300px;
+  border: 1px dashed rgba(255,255,255,0.3); /* just for visualization */
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  animation: rotate 10s linear infinite;
+}
+
+.earth {
+  width: 40px;
+  height: 40px;
+  background: blue;
+  border-radius: 50%;
+}
+
+/* .mercury{
+   
+    height: 220px;
+    width: 220px;
+    background-color: rgb(28, 28, 134);
+    border:10px dashed white;
+    border-radius: 0%;
+    transform: rotate(0deg);
+}
+ .venus{
+    
+    height: 300px;
+    width: 300px;
+    background-color: rgb(17, 17, 131);
+    border:10px dashed white;
+    
+} 
+/* .earth{
+    height: 40px;
+    width: 220px;
+    background-color: rgba(14, 14, 142, 0);
+    border:10px dashed white;
+    
+}
+.mars{
+    height: 170px;
+    width: 220px;
+    background-color: rgba(28, 28, 134,0);
+    border:10px dashed white;
+   
+}
+ */ */
